@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Najran - Gateway to History and Heritage</title>
+    <script>
+        // تحديد المسار الأساسي تلقائياً لـ GitHub Pages
+        (function() {
+            var path = window.location.pathname;
+            var basePath = '';
+            // إذا كان المسار يحتوي على اسم المستودع
+            if (path.includes('/pages/')) {
+                basePath = path.substring(0, path.indexOf('/pages/'));
+            }
+            // إضافة base tag
+            var base = document.createElement('base');
+            base.href = basePath || '/';
+            document.head.insertBefore(base, document.head.firstChild);
+        })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -361,6 +376,53 @@
         </div>
     </footer>
 <script src="templatemo-neural-scripts.js"></script>
+<script>
+    // إصلاح مسارات الصور والفيديو لـ GitHub Pages
+    (function() {
+        var path = window.location.pathname;
+        var basePath = '';
+        
+        // تحديد المسار الأساسي
+        if (path.includes('/pages/')) {
+            basePath = path.substring(0, path.indexOf('/pages/'));
+        }
+        
+        // تحديث مسارات الصور في CSS
+        if (basePath) {
+            var style = document.createElement('style');
+            style.textContent = `
+                .feature-visual {
+                    background-image: url('${basePath}/images/najran-history.jpg') !important;
+                }
+                .feature-row:nth-child(1) .feature-visual {
+                    background-image: url('${basePath}/images/najran-history.jpg') !important;
+                }
+                .feature-row:nth-child(2) .feature-visual {
+                    background-image: url('${basePath}/images/najran-geography.jpg') !important;
+                }
+                .feature-row:nth-child(3) .feature-visual {
+                    background-image: url('${basePath}/images/najran-economy.jpg') !important;
+                }
+            `;
+            document.head.appendChild(style);
+            
+            // تحديث مسارات الفيديو
+            var videos = document.querySelectorAll('.intro-video');
+            videos.forEach(function(video) {
+                if (video.poster) {
+                    video.poster = basePath + '/images/video-poster.jpg';
+                }
+                var sources = video.querySelectorAll('source');
+                sources.forEach(function(source) {
+                    var src = source.getAttribute('src');
+                    if (src && src.startsWith('../images/')) {
+                        source.setAttribute('src', basePath + '/images/' + src.replace('../images/', ''));
+                    }
+                });
+            });
+        }
+    })();
+</script>
 </body>
 </html>
 
