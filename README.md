@@ -1,8 +1,34 @@
 
 ## 🌐 زيارة الموقع
+<div align="center" style="margin-top: 20px;">
+  <!-- زر النسخة العربية -->
+  <a href="https://alakotemp-debug.github.io/Najran/pages/index.html" 
+     style="text-decoration: none; 
+            padding: 12px 30px; 
+            background: linear-gradient(135deg, #e0a3ff, #ff69b4); 
+            color: #000; 
+            border-radius: 25px; 
+            font-weight: bold; 
+            font-size: 1rem; 
+            margin: 0 10px; 
+            display: inline-block;">
+    العربية
+  </a>
 
-[![زيارة النسخة العربية](https://img.shields.io/badge/العربية-🌐-blue)](https://alakotemp-debug.github.io/Najran/pages/index.html)  
-[![زيارة النسخة الإنجليزية](https://img.shields.io/badge/English-🌐-brightgreen)](https://alakotemp-debug.github.io/Najran/pages/index-en.html)
+  <!-- زر النسخة الإنجليزية -->
+  <a href="https://alakotemp-debug.github.io/Najran/pages/index-en.html" 
+     style="text-decoration: none; 
+            padding: 12px 30px; 
+            background: linear-gradient(135deg, #7fffd4, #32cd32); 
+            color: #000; 
+            border-radius: 25px; 
+            font-weight: bold; 
+            font-size: 1rem; 
+            margin: 0 10px; 
+            display: inline-block;">
+    English
+  </a>
+</div>
 
 
 # 🕌 نجران – بوابة التاريخ والتراث  
