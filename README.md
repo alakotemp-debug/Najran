@@ -87,8 +87,9 @@ pages/index.html
 
 تصميم الويب Front-End
 
-استخدام HTML / CSS / JavaScript
+استخدام HTML / CSS 
 
+القليل من اكواد JavaScript لاعطاء الاحترافية
 تنظيم المشروع بشكل احترافي
 
 تقديم محتوى مرئي وحديث
