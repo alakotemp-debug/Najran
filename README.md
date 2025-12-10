@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نجران - بوابة التاريخ والتراث</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="templatemo-neural-style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+        }
+        .language-switcher {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+        .language-switcher a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgba(224, 163, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(224, 163, 255, 0.3);
+            border-radius: 25px;
+            color: #e0a3ff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+        .language-switcher a:hover {
+            background: rgba(224, 163, 255, 0.3);
+            border-color: rgba(224, 163, 255, 0.5);
+            transform: translateY(-2px);
+        }
+        @media (max-width: 768px) {
+            .language-switcher {
+                top: 10px;
+                left: 10px;
+            }
+            .language-switcher a {
+                padding: 8px 16px;
+                font-size: 0.85rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .language-switcher {
+                top: 8px;
+                left: 8px;
+            }
+            .language-switcher a {
+                padding: 6px 12px;
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="neural-background"></div>
+    
+    <div class="geometric-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <div class="neural-lines">
+        <div class="neural-line"></div>
+        <div class="neural-line"></div>
+        <div class="neural-line"></div>
+    </div>
+
+    <div class="language-switcher">
+        <a href="index-en.html">English</a>
+    </div>
+
+    <header class="glass">
+        <nav>
+            <a href="#home" class="logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#e0a3ff"/>
+                            <stop offset="50%" style="stop-color:#ff69b4"/>
+                            <stop offset="100%" style="stop-color:#9370db"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="30" r="8" fill="url(#logoGradient)" opacity="0.8">
+                        <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+                    </circle>
+                    <circle cx="30" cy="60" r="6" fill="url(#logoGradient)" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+                    </circle>
+                    <circle cx="70" cy="65" r="7" fill="url(#logoGradient)" opacity="0.7">
+                        <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite"/>
+                    </circle>
+                    <line x1="50" y1="30" x2="30" y2="60" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+                    </line>
+                    <line x1="50" y1="30" x2="70" y2="65" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+                    </line>
+                    <line x1="30" y1="60" x2="70" y2="65" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.8s" repeatCount="indefinite"/>
+                    </line>
+                </svg>
+                نجران
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">المميزات</a></li>
+                <li><a href="#showcase">المعالم</a></li>
+                <li><a href="#timeline">التاريخ</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+        </nav>
+        <div class="mobile-nav">
+            <a href="#features">المميزات</a>
+            <a href="#showcase">المعالم</a>
+            <a href="#timeline">التاريخ</a>
+            <a href="#contact">اتصل بنا</a>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-subtitle">مرحباً بك في</div>
+            <h1>نجران</h1>
+            
+            <div class="hero-description">
+                <p>مدينة تاريخية في جنوب غرب المملكة العربية السعودية، تتميز بموقع استراتيجي على طرق التجارة القديمة، وتراث أثري غني، وعمارة طينية تقليدية، وواحات زراعية خصبة. اكتشف جمال وتاريخ هذه المدينة العريقة.</p>
+            </div>
+
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-number">2000+</span>
+                    <span class="hero-stat-label">سنة من التاريخ</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">500K+</span>
+                    <span class="hero-stat-label">نسمة</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">24°C</span>
+                    <span class="hero-stat-label">متوسط الحرارة</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">365</span>
+                    <span class="hero-stat-label">يوم للزيارة</span>
+                </div>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="#features" class="cta-button">اكتشف المزيد</a>
+                <a href="#showcase" class="cta-button secondary">المعالم السياحية</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section" id="video">
+        <div class="video-container">
+            <h2 class="section-title">شاهد تراث نجران</h2>
+            <div class="video-wrapper">
+                <div class="video-overlay"></div>
+                <video class="intro-video" controls preload="metadata" poster="../images/video-poster.jpg" playsinline>
+                    <source src="../images/najran-intro.mp4" type="video/mp4">
+                    <source src="../images/najran-intro.webm" type="video/webm">
+                    <source src="../images/najran-intro.ogg" type="video/ogg">
+                    متصفحك لا يدعم تشغيل الفيديو. يرجى تحديث المتصفح أو استخدام متصفح حديث.
+                </video>
+                <div class="video-play-button">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="rgba(224, 163, 255, 0.3)" stroke="rgba(224, 163, 255, 0.6)" stroke-width="3"/>
+                        <polygon points="40,30 40,70 70,50" fill="rgba(224, 163, 255, 0.9)"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-description glass">
+                <p>اكتشف جمال وتاريخ مدينة نجران من خلال هذا الفيديو التعريفي الذي يعرض أبرز المعالم السياحية والتراثية لهذه المدينة العريقة.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features-container">
+            <h2 class="section-title">مميزات نجران</h2>
+            <div class="diagonal-grid">
+                <div class="feature-row">
+                    <div class="feature-content glass">
+                        <div class="feature-icon">🏛️</div>
+                        <h3>تاريخ عريق</h3>
+                        <p>تعود جذور نجران إلى الألفية الثانية قبل الميلاد، وكانت جزءًا مهمًا من طرق تجارة اللبان والبخور. تحتضن نجران موقع الأخدود الأثري الذي يُعتبر من المواقع الأثرية الهامة في المنطقة، ويحتوي على بقايا مستوطنة قديمة ونقوش وآثار تعود لآلاف السنين.</p>
+                    </div>
+                    <div class="feature-visual" style="background-image: url('../images/najran-history.jpg');"></div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-content glass">
+                        <div class="feature-icon">🌄</div>
+                        <h3>جغرافيا متنوعة</h3>
+                        <p>تقع نجران في الجنوب الغربي من المملكة، قرب الحدود اليمنية، وتحتضن وادي نجران وسهولًا وهضابًا خلّابة، بالإضافة إلى واحات زراعية خصبة. تتميز بتنوع جغرافي يشمل الجبال والوديان والصحاري، مما يوفر مناظر طبيعية ساحرة.</p>
+                    </div>
+                    <div class="feature-visual" style="background-image: url('../images/najran-geography.jpg');"></div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-content glass">
+                        <div class="feature-icon">💼</div>
+                        <h3>اقتصاد واعد</h3>
+                        <p>تتوسع أنشطة التنمية والاستثمارات في نجران، وبخاصة في قطاع التعدين والموارد المعدنية. المنطقة تضم موارد معدنية واعدة مع عمليات استكشاف للتنقيب عن النحاس والذهب والمعادن الأخرى. كما تشتهر بالزراعة والواحات التي تنتج أجود أنواع التمور.</p>
+                    </div>
+                    <div class="feature-visual" style="background-image: url('../images/najran-economy.jpg');"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase" id="showcase">
+        <h2 class="section-title">معالم نجران السياحية</h2>
+        <div class="hexagon-container">
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🏺</div>
+                    <h4>الأخدود الأثري</h4>
+                    <p>موقع أثري تاريخي يعود لأكثر من 2000 عام</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🏰</div>
+                    <h4>قلعة نجران</h4>
+                    <p>قلعة تاريخية وعمارة طينية تقليدية</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🏔️</div>
+                    <h4>جبال رعوم</h4>
+                    <p>مناظر طبيعية خلابة وجبال شاهقة</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🌊</div>
+                    <h4>سد وادي نجران</h4>
+                    <p>سد مائي مهم للتحكم بالفيضانات</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🛍️</div>
+                    <h4>سوق الجنابي</h4>
+                    <p>سوق شعبي تقليدي للحرف اليدوية</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🌴</div>
+                    <h4>الواحات الزراعية</h4>
+                    <p>واحات خصبة ومزارع نخيل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline" id="timeline">
+        <h2 class="section-title">التاريخ الزمني</h2>
+        <div class="timeline-container">
+            <div class="timeline-line"></div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content glass">
+                    <div class="timeline-year">2000 ق.م</div>
+                    <h4>العصور القديمة</h4>
+                    <p>تعود جذور نجران إلى الألفية الثانية قبل الميلاد، وكانت جزءًا مهمًا من طرق تجارة اللبان والبخور، ومرّت عليها حضارات جنوب الجزيرة العربية. تأسست مدينة الأخدود الأثرية التي تُعتبر من المواقع الأثرية الهامة في المنطقة.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content glass">
+                    <div class="timeline-year">القرن الأول</div>
+                    <h4>الحقبة المسيحية</h4>
+                    <p>شهدت نجران وجودًا مسيحيًا واضحًا قبل الإسلام، مع كنائس ومجتمعات وذكرها في مصادر تاريخية مبكرة. كانت نجران مركزًا دينيًا وثقافيًا مهمًا في المنطقة.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content glass">
+                    <div class="timeline-year">القرن السابع</div>
+                    <h4>دخول الإسلام</h4>
+                    <p>انضمت نجران إلى الدولة الإسلامية في العصور المبكرة، ومرّت بمراحل تاريخية متعاقبة. أصبحت جزءًا من الدولة الإسلامية وازدهرت كمركز تجاري وثقافي.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content glass">
+                    <div class="timeline-year">1934</div>
+                    <h4>الانضمام للمملكة</h4>
+                    <p>انضمت نجران إلى المملكة العربية السعودية الحديثة عام 1934. منذ ذلك الحين، شهدت المدينة تطورًا مستمرًا في جميع المجالات مع الحفاظ على تراثها التاريخي والثقافي الأصيل.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info glass">
+                <h3>تواصل معنا</h3>
+                <p>نرحب بزيارتك لمدينة نجران ونتمنى أن تكون تجربتك مميزة. إذا كان لديك أي استفسارات حول المعالم السياحية، أو تحتاج إلى معلومات إضافية، لا تتردد في التواصل معنا.</p>
+                <p>نحن هنا لمساعدتك في اكتشاف جمال وتاريخ هذه المدينة العريقة.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="glass" title="الهاتف">📞</a>
+                    <a href="#" class="glass" title="البريد الإلكتروني">📧</a>
+                    <a href="#" class="glass" title="الموقع الإلكتروني">🌐</a>
+                    <a href="#" class="glass" title="الخرائط">📍</a>
+                </div>
+            </div>
+            
+            <div class="contact-form glass">
+                <div class="form-group">
+                    <input type="text" placeholder="الاسم" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="البريد الإلكتروني" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="الموضوع" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="الرسالة" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">إرسال الرسالة</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#features">المميزات</a>
+                <a href="#showcase">المعالم السياحية</a>
+                <a href="#timeline">التاريخ</a>
+                <a href="#contact">اتصل بنا</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 نجران - جميع الحقوق محفوظة تالا.</p>
+            </div>
+        </div>
+    </footer>
+<script src="templatemo-neural-scripts.js"></script>
+</body>
