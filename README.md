@@ -96,12 +96,14 @@ pages/index.html
 
 تصميم الويب Front-End
 
-<img width="1912" height="932" alt="03" src="https://github.com/user-attachments/assets/3cc4f6e9-573f-4165-a0e5-762292c9d835" />
+<img width="1912" height="932" alt="03" src="https://github.com/user-attachments/assets/d3a52c71-0c29-40b7-a647-a4c15bf6a3eb" />
+
 
 استخدام HTML / CSS 
 
 القليل من اكواد JavaScript لاعطاء الاحترافية
-<img width="1905" height="932" alt="04" src="https://github.com/user-attachments/assets/e687b0dd-1751-42bc-80f0-dc2a47ec9878" />
+<img width="1905" height="932" alt="04" src="https://github.com/user-attachments/assets/0d168b9e-1d78-48dd-82a3-008b7813c8ef" />
+
 
 تنظيم المشروع بشكل احترافي
 
