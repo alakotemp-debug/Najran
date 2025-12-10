@@ -12,9 +12,10 @@
             font-size: 1rem; 
             margin: 0 10px; 
             display: inline-block;">
-    العربية
+    العربية (الصفحة الرئيسية)
   </a>
 
+  
   <!-- زر النسخة الإنجليزية -->
   <a href="https://alakotemp-debug.github.io/Najran/pages/index-en.html" 
      style="text-decoration: none; 
