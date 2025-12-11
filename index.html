@@ -64,22 +64,6 @@
             100% { transform: rotate(360deg); }
         }
     </style>
-
-    <!-- Privacy-friendly analytics by Plausible -->
-    <script async src="https://plausible.io/js/pa-Cj5dR8BoevRyYUREzuQ02.js"></script>
-    <script>
-        window.plausible = window.plausible || function() {
-            (plausible.q = plausible.q || []).push(arguments)
-        };
-        plausible.init();
-
-        // إعادة التوجيه بعد تحميل الصفحة وبضع عشرات من المللي ثانية لتسجيل الزيارة
-        window.addEventListener('load', function() {
-            setTimeout(function() {
-                window.location.href = "pages/index.html";
-            }, 200); // 200ms لتأكيد تسجيل الزيارة
-        });
-    </script>
 </head>
 <body>
     <div class="redirect-message">
