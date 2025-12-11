@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=pages/index.html">
     <title>نجران - بوابة التاريخ والتراث</title>
-    <script>
-        window.location.href = "pages/index.html";
-    </script>
+
     <style>
         body {
             font-family: 'Cairo', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
@@ -67,12 +64,22 @@
             100% { transform: rotate(360deg); }
         }
     </style>
+
     <!-- Privacy-friendly analytics by Plausible -->
-<script async src="https://plausible.io/js/pa-Cj5dR8BoevRyYUREzuQ02.js"></script>
-<script>
-  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-  plausible.init()
-</script>
+    <script async src="https://plausible.io/js/pa-Cj5dR8BoevRyYUREzuQ02.js"></script>
+    <script>
+        window.plausible = window.plausible || function() {
+            (plausible.q = plausible.q || []).push(arguments)
+        };
+        plausible.init();
+
+        // إعادة التوجيه بعد تحميل الصفحة وبضع عشرات من المللي ثانية لتسجيل الزيارة
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                window.location.href = "pages/index.html";
+            }, 200); // 200ms لتأكيد تسجيل الزيارة
+        });
+    </script>
 </head>
 <body>
     <div class="redirect-message">
@@ -85,4 +92,3 @@
     </div>
 </body>
 </html>
-
